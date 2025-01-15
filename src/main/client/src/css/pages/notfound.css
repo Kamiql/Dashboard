@@ -1,0 +1,55 @@
+@import url("/src/css/themes.css");
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--primary-color);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.not-found-title {
+  font-size: 120px;
+  font-weight: bold;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.not-found-message {
+  font-size: 20px;
+  color: var(--text-color);
+  margin-bottom: 30px;
+  max-width: 500px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.not-found-link {
+  font-size: 18px;
+  color: var(--primary-color);
+  text-decoration: none;
+  background-color: var(--accent-color-secondary);
+  padding: 15px 30px;
+  border: 2px solid var(--accent-color-secondary);
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  display: inline-block;
+}
+
+.not-found-link:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  transform: translateY(-3px);
+}
+
+.not-found-link:active {
+  transform: translateY(1px);
+}

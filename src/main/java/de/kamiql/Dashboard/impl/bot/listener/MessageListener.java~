@@ -1,0 +1,4 @@
+package de.kamiql.Dashboard.impl.bot.listener;
+
+public class MessageListener {
+}

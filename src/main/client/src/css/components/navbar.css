@@ -1,0 +1,64 @@
+/* Navbar */
+.navbar {
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .nav-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 15px;
+}
+  
+.nav-item {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: 0.2s;
+}
+
+.nav-item:hover {
+    color: var(--accent-color);
+    transform: scale(1.1);
+}
+
+.nav-item div {
+    display: none;
+    gap: 5px;
+    justify-content: left;
+    color: var(--text-color);
+    font-size: 1rem;
+    white-space: nowrap;
+    opacity: 0;
+}
+
+.nav-item:hover div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    opacity: 1;
+}
+
+.navbar .nav-icons .info .theme-option:hover {
+    color: var(--accent-color);
+}
+
+.navbar .navbar-brand {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-color);
+    transition: 0.3s;
+}
+
+.navbar .navbar-brand:hover {
+    color: var(--accent-color);
+}

@@ -1,0 +1,3 @@
+info-log 13.01.2025 22:07:30 | [INFO] [DISCORD] handleGetBirthday invoked
+info-log 13.01.2025 22:07:30 | [INFO] [DISCORD] User found: ID=963930730390491208, Username=kamiql
+info-log 13.01.2025 22:07:31 | [INFO] [DISCORD] Birthday found for user: 963930730390491208, Date=30.08.2010

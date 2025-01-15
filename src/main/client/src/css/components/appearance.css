@@ -1,0 +1,65 @@
+@import url("/src/css/themes.css");
+
+.card {
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.card h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.card p {
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.theme {
+    margin-top: 20px;
+}
+
+.theme-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.theme-option {
+    background-color: var(--secondary-color);
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.theme-option:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.theme-option i {
+    font-size: 36px;
+    color: var(--accent-color);
+    margin-bottom: 15px;
+}
+
+.theme-option h4 {
+    font-size: 18px;
+    color: var(--text-color);
+    font-weight: 600;
+    text-transform: capitalize;
+}

@@ -1,0 +1,35 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--text-color);
+    transition: background-color 0.5s ease, color 0.5s ease;
+    background-image: url("/src/assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+html {
+    height: 100vh;
+    margin: 0;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.footer {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
